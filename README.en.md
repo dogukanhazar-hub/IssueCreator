@@ -1,7 +1,7 @@
 # FastIssue
 
 #### Description
-{**This Bash script sends a POST request to the Gitee API to create a new issue in the specified repository. It accepts parameters via command-line arguments and requires a Gitee personal access token for authentication.
+This Bash script sends a POST request to the Gitee API to create a new issue in the specified repository. It accepts parameters via command-line arguments and requires a Gitee personal access token for authentication.
 
 Features:
 
@@ -11,10 +11,7 @@ Supports creating issues with title and description.
 
 Works directly with Gitee API.
 
-Lightweight and requires minimal setup.**}
-
-#### Software Architecture
-Software architecture description
+Lightweight and requires minimal setup.
 
 #### Installation
 
