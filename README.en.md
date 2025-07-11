@@ -1,36 +1,47 @@
 # FastIssue
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+{**This Bash script sends a POST request to the Gitee API to create a new issue in the specified repository. It accepts parameters via command-line arguments and requires a Gitee personal access token for authentication.
+
+Features:
+
+Easy to use with simple CLI arguments.
+
+Supports creating issues with title and description.
+
+Works directly with Gitee API.
+
+Lightweight and requires minimal setup.**}
 
 #### Software Architecture
 Software architecture description
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+To install and prepare the issue-creator script for use:
+
+1. Download or clone the script:
+git clone https://gitee.com/yourusername/FastIssue.git
+cd FastIssue
+
+2. Make the script executable:
+chmod +x issue-creator.sh
+
+3. (Optional) Move the script to a directory in your system PATH:
+sudo mv issue-creator.sh /usr/local/bin/issue-creator
+
+4. Install required dependency:
+The script uses jq to parse JSON. Install it using:
+sudo apt update
+sudo apt install jq
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Set your Gitee Personal Access Token:
+TOKEN="xxxPUT_YOUR_GITEE_TOKEN_HERExxx" in the issue-creator.sh
+2. Run the script with the following arguments:
+./issue-creator.sh --title "Issue Title" --description "Issue Description" --owner "your-gitee-username" --repository "your-repo-name"
+3. If you moved the script to a system path, you can call it directly as:
+issue-creator --title "Bug in login" --description "Login button does not respond" --owner "your-gitee-username" --repository "FastIssue"
+4. After execution, the script will print the URL of the newly created issue if successful.
 
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
