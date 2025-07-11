@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOKEN="53422228a155a1c234dd6df6201dbb19"
+TOKEN="EnterYourTokenHere"
 
 TITLE=""
 BODY=""
