@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/issue-creator.dir/main.cpp.o CMakeFiles/issue-creator.dir/sqlcipher_wrapper.cpp.o CMakeFiles/issue-creator.dir/gitee_api.cpp.o CMakeFiles/issue-creator.dir/github_api.cpp.o -o issue-creator  /usr/lib/x86_64-linux-gnu/libcurl.so -lsqlite3 -lsqlcipher 

@@ -1,0 +1,3 @@
+/home/hw-intern4/FastIssue/build/CMakeFiles/issue-creator.dir
+/home/hw-intern4/FastIssue/build/CMakeFiles/edit_cache.dir
+/home/hw-intern4/FastIssue/build/CMakeFiles/rebuild_cache.dir
